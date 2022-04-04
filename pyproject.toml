@@ -11,7 +11,7 @@ packages = [
 ]
 
 [tool.poetry.scripts]
-lads = "dsone:cli"
+dsone = "dsone:cli"
 
 [[tool.poetry.source]]
 name = "baidu"
