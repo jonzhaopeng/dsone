@@ -67,7 +67,7 @@ def remote():
     """ 通常在服务器上，启动当前数据科学项目环境中的Spyder-kernles
 
     """
-    os.system("poetry run python3 -m spyder_kernels.console --matplotlib="inline"  -f=connect.json > logs/spyderkernels.log 2>&1 &")
+    os.system("""poetry run python3 -m spyder_kernels.console --matplotlib="inline"  -f=connect.json > logs/spyderkernels.log 2>&1 &""")
 
 
 @cli.command()
