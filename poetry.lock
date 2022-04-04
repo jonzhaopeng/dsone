@@ -6,6 +6,11 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "applaunchservices"
 version = "0.2.1"
@@ -17,6 +22,11 @@ python-versions = "*"
 [package.dependencies]
 pyobjc = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "appnope"
 version = "0.1.2"
@@ -25,16 +35,26 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "arrow"
 version = "1.2.2"
 description = "Better dates & times for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
 python-dateutil = ">=2.7.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "astroid"
@@ -49,6 +69,11 @@ lazy-object-proxy = ">=1.4.0"
 typing-extensions = {version = ">=3.10", markers = "python_version < \"3.10\""}
 wrapt = ">=1.11,<2"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "atomicwrites"
 version = "1.4.0"
@@ -56,6 +81,11 @@ description = "Atomic file writes."
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "attrs"
@@ -71,6 +101,11 @@ docs = ["furo", "sphinx", "zope.interface", "sphinx-notfound-page"]
 tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "zope.interface", "cloudpickle"]
 tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "cloudpickle"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "autopep8"
 version = "1.6.0"
@@ -83,6 +118,11 @@ python-versions = "*"
 pycodestyle = ">=2.8.0"
 toml = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "babel"
 version = "2.9.1"
@@ -94,6 +134,11 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.dependencies]
 pytz = ">=2015.7"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "backcall"
 version = "0.2.0"
@@ -101,6 +146,11 @@ description = "Specifications for callback functions passed in to an API"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "bcrypt"
@@ -118,6 +168,11 @@ six = ">=1.4.1"
 tests = ["pytest (>=3.2.1,!=3.3.0)"]
 typecheck = ["mypy"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "beautifulsoup4"
 version = "4.10.0"
@@ -133,16 +188,26 @@ soupsieve = ">1.2"
 html5lib = ["html5lib"]
 lxml = ["lxml"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "binaryornot"
 version = "0.4.4"
 description = "Ultra-lightweight pure Python package to check if a file is binary or text."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
 chardet = ">=3.0.2"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "black"
@@ -166,6 +231,11 @@ d = ["aiohttp (>=3.7.4)"]
 jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
 uvloop = ["uvloop (>=0.15.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "bleach"
 version = "4.1.0"
@@ -179,13 +249,23 @@ packaging = "*"
 six = ">=1.9.0"
 webencodings = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "certifi"
 version = "2021.10.8"
 description = "Python package for providing Mozilla's CA Bundle."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "cffi"
@@ -198,35 +278,55 @@ python-versions = "*"
 [package.dependencies]
 pycparser = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "chardet"
 version = "4.0.0"
 description = "Universal encoding detector for Python 2 and 3"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "charset-normalizer"
 version = "2.0.12"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5.0"
 
 [package.extras]
 unicode_backport = ["unicodedata2"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "click"
 version = "8.1.2"
 description = "Composable command line interface toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [package.dependencies]
 colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "cloudpickle"
@@ -236,13 +336,23 @@ category = "dev"
 optional = false
 python-versions = ">=3.6"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "colorama"
 version = "0.4.4"
 description = "Cross-platform colored terminal text."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "coloredlogs"
@@ -258,11 +368,16 @@ humanfriendly = ">=9.1"
 [package.extras]
 cron = ["capturer (>=2.4)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "cookiecutter"
 version = "1.7.3"
 description = "A command-line utility that creates projects from project templates, e.g. creating a Python package project from a Python package project template."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -275,6 +390,11 @@ poyo = ">=0.5.0"
 python-slugify = ">=4.0.0"
 requests = ">=2.23.0"
 six = ">=1.10"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "cryptography"
@@ -295,6 +415,11 @@ sdist = ["setuptools_rust (>=0.11.4)"]
 ssh = ["bcrypt (>=3.1.5)"]
 test = ["pytest (>=6.2.0)", "pytest-cov", "pytest-subtests", "pytest-xdist", "pretend", "iso8601", "pytz", "hypothesis (>=1.11.4,!=3.79.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "cython"
 version = "0.29.28"
@@ -302,6 +427,11 @@ description = "The Cython compiler for writing C extensions for the Python langu
 category = "dev"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "debugpy"
@@ -311,6 +441,11 @@ category = "dev"
 optional = false
 python-versions = ">=3.7"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "decorator"
 version = "5.1.1"
@@ -318,6 +453,11 @@ description = "Decorators for Humans"
 category = "dev"
 optional = false
 python-versions = ">=3.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "defusedxml"
@@ -327,6 +467,11 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "diff-match-patch"
 version = "20200713"
@@ -334,6 +479,11 @@ description = "Repackaging of Google's Diff Match and Patch libraries. Offers ro
 category = "dev"
 optional = false
 python-versions = ">=2.7"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "dill"
@@ -346,6 +496,11 @@ python-versions = ">=2.7, !=3.0.*"
 [package.extras]
 graph = ["objgraph (>=1.7.2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "docutils"
 version = "0.17.1"
@@ -354,6 +509,11 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "entrypoints"
 version = "0.4"
@@ -361,6 +521,11 @@ description = "Discover and load entry points from installed packages."
 category = "dev"
 optional = false
 python-versions = ">=3.6"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "flake8"
@@ -374,6 +539,11 @@ python-versions = ">=3.6"
 mccabe = ">=0.6.0,<0.7.0"
 pycodestyle = ">=2.8.0,<2.9.0"
 pyflakes = ">=2.4.0,<2.5.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "git-cola"
@@ -391,6 +561,11 @@ qtpy = ">=1.1.0"
 docs = ["sphinx", "jaraco.packaging (>=9)", "rst.linker (>=1.9)"]
 testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)", "pyside2", "pyqt5"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "humanfriendly"
 version = "10.0"
@@ -402,13 +577,23 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 [package.dependencies]
 pyreadline3 = {version = "*", markers = "sys_platform == \"win32\" and python_version >= \"3.8\""}
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "idna"
 version = "3.3"
 description = "Internationalized Domain Names in Applications (IDNA)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "imagesize"
@@ -417,6 +602,11 @@ description = "Getting image size from png/jpeg/jpeg2000/gif file"
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "importlib-metadata"
@@ -434,6 +624,11 @@ docs = ["sphinx", "jaraco.packaging (>=9)", "rst.linker (>=1.9)"]
 perf = ["ipython"]
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "packaging", "pyfakefs", "flufl.flake8", "pytest-perf (>=0.9.2)", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)", "importlib-resources (>=1.3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "importlib-resources"
 version = "5.6.0"
@@ -449,6 +644,11 @@ zipp = {version = ">=3.1.0", markers = "python_version < \"3.10\""}
 docs = ["sphinx", "jaraco.packaging (>=9)", "rst.linker (>=1.9)"]
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "inflection"
 version = "0.5.1"
@@ -456,6 +656,11 @@ description = "A port of Ruby on Rails inflector to Python"
 category = "dev"
 optional = false
 python-versions = ">=3.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "intervaltree"
@@ -467,6 +672,11 @@ python-versions = "*"
 
 [package.dependencies]
 sortedcontainers = ">=2.0,<3.0"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "ipykernel"
@@ -489,6 +699,11 @@ traitlets = ">=5.1.0"
 
 [package.extras]
 test = ["pytest (>=6.0)", "pytest-cov", "flaky", "ipyparallel", "pre-commit", "pytest-timeout"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "ipython"
@@ -522,6 +737,11 @@ parallel = ["ipyparallel"]
 qtconsole = ["qtconsole"]
 test = ["nose (>=0.10.1)", "requests", "testpath", "pygments", "nbformat", "ipykernel", "numpy (>=1.17)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "ipython-genutils"
 version = "0.2.0"
@@ -529,6 +749,11 @@ description = "Vestigial utilities from IPython"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "isort"
@@ -539,10 +764,15 @@ optional = false
 python-versions = ">=3.6.1,<4.0"
 
 [package.extras]
-pipfile_deprecated_finder = ["pipreqs", "requirementslib"]
-requirements_deprecated_finder = ["pipreqs", "pip-api"]
 colors = ["colorama (>=0.4.3,<0.5.0)"]
+requirements_deprecated_finder = ["pip-api", "pipreqs"]
+pipfile_deprecated_finder = ["pipreqs", "requirementslib"]
 plugins = ["setuptools"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "jedi"
@@ -559,6 +789,11 @@ parso = ">=0.8.0,<0.9.0"
 qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["Django (<3.1)", "colorama", "docopt", "pytest (<7.0.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "jeepney"
 version = "0.8.0"
@@ -571,6 +806,11 @@ python-versions = ">=3.7"
 test = ["pytest", "pytest-trio", "pytest-asyncio (>=0.17)", "testpath", "trio", "async-timeout"]
 trio = ["trio", "async-generator"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "jellyfish"
 version = "0.9.0"
@@ -579,11 +819,16 @@ category = "dev"
 optional = false
 python-versions = ">3.6"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "jinja2"
 version = "3.0.3"
 description = "A very fast and expressive template engine."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -593,17 +838,27 @@ MarkupSafe = ">=2.0"
 [package.extras]
 i18n = ["Babel (>=2.7)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "jinja2-time"
 version = "0.2.0"
 description = "Jinja2 Extension for Dates and Times"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
 [package.dependencies]
 arrow = "*"
 jinja2 = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "jsonschema"
@@ -621,6 +876,11 @@ pyrsistent = ">=0.14.0,<0.17.0 || >0.17.0,<0.17.1 || >0.17.1,<0.17.2 || >0.17.2"
 [package.extras]
 format = ["fqdn", "idna", "isoduration", "jsonpointer (>1.13)", "rfc3339-validator", "rfc3987", "uri-template", "webcolors (>=1.11)"]
 format_nongpl = ["fqdn", "idna", "isoduration", "jsonpointer (>1.13)", "rfc3339-validator", "rfc3986-validator (>0.1.0)", "uri-template", "webcolors (>=1.11)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "jupyter-client"
@@ -643,6 +903,11 @@ traitlets = "*"
 doc = ["ipykernel", "myst-parser", "sphinx (>=1.3.6)", "sphinx-rtd-theme", "sphinxcontrib-github-alt"]
 test = ["codecov", "coverage", "ipykernel (>=6.5)", "ipython", "mypy", "pre-commit", "pytest", "pytest-asyncio (>=0.18)", "pytest-cov", "pytest-timeout"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "jupyter-core"
 version = "4.9.2"
@@ -655,6 +920,11 @@ python-versions = ">=3.6"
 pywin32 = {version = ">=1.0", markers = "sys_platform == \"win32\" and platform_python_implementation != \"PyPy\""}
 traitlets = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "jupyterlab-pygments"
 version = "0.1.2"
@@ -665,6 +935,11 @@ python-versions = "*"
 
 [package.dependencies]
 pygments = ">=2.4.1,<3"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "keyring"
@@ -684,6 +959,11 @@ SecretStorage = {version = ">=3.2", markers = "sys_platform == \"linux\""}
 docs = ["sphinx", "jaraco.packaging (>=8.2)", "rst.linker (>=1.9)", "jaraco.tidelift (>=1.4)"]
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "pytest-black (>=0.3.7)", "pytest-mypy"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "lazy-object-proxy"
 version = "1.7.1"
@@ -692,13 +972,23 @@ category = "dev"
 optional = false
 python-versions = ">=3.6"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "markupsafe"
 version = "2.1.1"
 description = "Safely add untrusted strings to HTML/XML markup."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "matplotlib-inline"
@@ -711,6 +1001,11 @@ python-versions = ">=3.5"
 [package.dependencies]
 traitlets = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "mccabe"
 version = "0.6.1"
@@ -719,6 +1014,11 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "mistune"
 version = "0.8.4"
@@ -726,6 +1026,11 @@ description = "The fastest markdown parser in pure Python"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "mpmath"
@@ -739,6 +1044,11 @@ python-versions = "*"
 develop = ["pytest (>=4.6)", "pycodestyle", "pytest-cov", "codecov", "wheel"]
 tests = ["pytest (>=4.6)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "mypy-extensions"
 version = "0.4.3"
@@ -746,6 +1056,11 @@ description = "Experimental type system extensions for programs checked with the
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "nbclient"
@@ -764,6 +1079,11 @@ traitlets = ">=5.0.0"
 [package.extras]
 sphinx = ["Sphinx (>=1.7)", "sphinx-book-theme", "mock", "moto", "myst-parser"]
 test = ["ipython (<8.0.0)", "ipykernel", "ipywidgets (<8.0.0)", "pytest (>=4.1)", "pytest-asyncio", "pytest-cov (>=2.6.1)", "check-manifest", "flake8", "mypy", "xmltodict", "black", "pip (>=18.1)", "wheel (>=0.31.0)", "setuptools (>=38.6.0)", "twine (>=1.11.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "nbconvert"
@@ -797,6 +1117,11 @@ serve = ["tornado (>=4.0)"]
 test = ["pytest", "pytest-cov", "pytest-dependency", "ipykernel", "ipywidgets (>=7)", "pyppeteer (>=1,<1.1)"]
 webpdf = ["pyppeteer (>=1,<1.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "nbformat"
 version = "5.2.0"
@@ -814,6 +1139,11 @@ traitlets = ">=4.1"
 fast = ["fastjsonschema"]
 test = ["check-manifest", "fastjsonschema", "testpath", "pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "nest-asyncio"
 version = "1.5.5"
@@ -821,6 +1151,11 @@ description = "Patch asyncio to allow nested event loops"
 category = "dev"
 optional = false
 python-versions = ">=3.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "numpydoc"
@@ -837,6 +1172,11 @@ sphinx = ">=1.8"
 [package.extras]
 testing = ["pytest", "pytest-cov", "matplotlib"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "packaging"
 version = "21.3"
@@ -848,6 +1188,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pandocfilters"
 version = "1.5.0"
@@ -855,6 +1200,11 @@ description = "Utilities for writing pandoc filters in python"
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "paramiko"
@@ -876,6 +1226,11 @@ ed25519 = ["pynacl (>=1.0.1)", "bcrypt (>=3.1.3)"]
 gssapi = ["pyasn1 (>=0.1.7)", "gssapi (>=1.4.1)", "pywin32 (>=2.1.8)"]
 invoke = ["invoke (>=1.3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "parso"
 version = "0.8.3"
@@ -888,6 +1243,11 @@ python-versions = ">=3.6"
 qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pathspec"
 version = "0.9.0"
@@ -895,6 +1255,11 @@ description = "Utility library for gitignore style pattern matching of file path
 category = "dev"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pexpect"
@@ -907,6 +1272,11 @@ python-versions = "*"
 [package.dependencies]
 ptyprocess = ">=0.5"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pickleshare"
 version = "0.7.5"
@@ -914,6 +1284,11 @@ description = "Tiny 'shelve'-like database with concurrency support"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "platformdirs"
@@ -927,6 +1302,11 @@ python-versions = ">=3.7"
 docs = ["Sphinx (>=4)", "furo (>=2021.7.5b38)", "proselint (>=0.10.2)", "sphinx-autodoc-typehints (>=1.12)"]
 test = ["appdirs (==1.4.4)", "pytest (>=6)", "pytest-cov (>=2.7)", "pytest-mock (>=3.6)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pluggy"
 version = "1.0.0"
@@ -939,13 +1319,23 @@ python-versions = ">=3.6"
 dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "poyo"
 version = "0.5.0"
 description = "A lightweight YAML Parser for Python. 🐓"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "prompt-toolkit"
@@ -958,6 +1348,11 @@ python-versions = ">=3.6.2"
 [package.dependencies]
 wcwidth = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "psutil"
 version = "5.9.0"
@@ -969,6 +1364,11 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.extras]
 test = ["ipaddress", "mock", "unittest2", "enum34", "pywin32", "wmi"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "ptyprocess"
 version = "0.7.0"
@@ -976,6 +1376,11 @@ description = "Run a subprocess in a pseudo terminal"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "py"
@@ -985,6 +1390,11 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pycodestyle"
 version = "2.8.0"
@@ -993,6 +1403,11 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pycparser"
 version = "2.21"
@@ -1000,6 +1415,11 @@ description = "C parser in Python"
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pydocstyle"
@@ -1015,6 +1435,11 @@ snowballstemmer = "*"
 [package.extras]
 toml = ["toml"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyflakes"
 version = "2.4.0"
@@ -1023,6 +1448,11 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pygments"
 version = "2.11.2"
@@ -1030,6 +1460,11 @@ description = "Pygments is a syntax highlighting package written in Python."
 category = "dev"
 optional = false
 python-versions = ">=3.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pylint"
@@ -1052,6 +1487,11 @@ typing-extensions = {version = ">=3.10.0", markers = "python_version < \"3.10\""
 [package.extras]
 testutil = ["gitpython (>3)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyls-spyder"
 version = "0.4.0"
@@ -1062,6 +1502,11 @@ python-versions = ">= 3.6"
 
 [package.dependencies]
 python-lsp-server = ">=1.0.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pynacl"
@@ -1077,6 +1522,11 @@ cffi = ">=1.4.1"
 [package.extras]
 docs = ["sphinx (>=1.6.5)", "sphinx-rtd-theme"]
 tests = ["pytest (>=3.2.1,!=3.3.0)", "hypothesis (>=3.27.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc"
@@ -1231,6 +1681,11 @@ pyobjc-framework-WebKit = "8.4.1"
 [package.extras]
 allbindings = ["pyobjc-core (==8.4.1)", "pyobjc-framework-libdispatch (==8.4.1)", "pyobjc-framework-Accessibility (==8.4.1)", "pyobjc-framework-AdServices (==8.4.1)", "pyobjc-framework-AdSupport (==8.4.1)", "pyobjc-framework-AppTrackingTransparency (==8.4.1)", "pyobjc-framework-AudioVideoBridging (==8.4.1)", "pyobjc-framework-AuthenticationServices (==8.4.1)", "pyobjc-framework-AutomaticAssessmentConfiguration (==8.4.1)", "pyobjc-framework-AVKit (==8.4.1)", "pyobjc-framework-AVFoundation (==8.4.1)", "pyobjc-framework-Accounts (==8.4.1)", "pyobjc-framework-AddressBook (==8.4.1)", "pyobjc-framework-AppleScriptKit (==8.4.1)", "pyobjc-framework-AppleScriptObjC (==8.4.1)", "pyobjc-framework-ApplicationServices (==8.4.1)", "pyobjc-framework-Automator (==8.4.1)", "pyobjc-framework-BusinessChat (==8.4.1)", "pyobjc-framework-CFNetwork (==8.4.1)", "pyobjc-framework-CalendarStore (==8.4.1)", "pyobjc-framework-CallKit (==8.4.1)", "pyobjc-framework-ClassKit (==8.4.1)", "pyobjc-framework-CloudKit (==8.4.1)", "pyobjc-framework-Cocoa (==8.4.1)", "pyobjc-framework-Collaboration (==8.4.1)", "pyobjc-framework-ColorSync (==8.4.1)", "pyobjc-framework-Contacts (==8.4.1)", "pyobjc-framework-ContactsUI (==8.4.1)", "pyobjc-framework-CoreAudio (==8.4.1)", "pyobjc-framework-CoreAudioKit (==8.4.1)", "pyobjc-framework-CoreBluetooth (==8.4.1)", "pyobjc-framework-CoreData (==8.4.1)", "pyobjc-framework-CoreHaptics (==8.4.1)", "pyobjc-framework-CoreLocation (==8.4.1)", "pyobjc-framework-CoreMedia (==8.4.1)", "pyobjc-framework-CoreMediaIO (==8.4.1)", "pyobjc-framework-CoreMIDI (==8.4.1)", "pyobjc-framework-CoreML (==8.4.1)", "pyobjc-framework-CoreMotion (==8.4.1)", "pyobjc-framework-CoreServices (==8.4.1)", "pyobjc-framework-CoreSpotlight (==8.4.1)", "pyobjc-framework-CoreText (==8.4.1)", "pyobjc-framework-CoreWLAN (==8.4.1)", "pyobjc-framework-CryptoTokenKit (==8.4.1)", "pyobjc-framework-DataDetection (==8.4.1)", "pyobjc-framework-DeviceCheck (==8.4.1)", "pyobjc-framework-DictionaryServices (==8.4.1)", "pyobjc-framework-DiscRecording (==8.4.1)", "pyobjc-framework-DiscRecordingUI (==8.4.1)", "pyobjc-framework-DiskArbitration (==8.4.1)", "pyobjc-framework-DVDPlayback (==8.4.1)", "pyobjc-framework-EventKit (==8.4.1)", "pyobjc-framework-ExceptionHandling (==8.4.1)", "pyobjc-framework-ExecutionPolicy (==8.4.1)", "pyobjc-framework-ExternalAccessory (==8.4.1)", "pyobjc-framework-FileProvider (==8.4.1)", "pyobjc-framework-FileProviderUI (==8.4.1)", "pyobjc-framework-FSEvents (==8.4.1)", "pyobjc-framework-FinderSync (==8.4.1)", "pyobjc-framework-GameCenter (==8.4.1)", "pyobjc-framework-GameController (==8.4.1)", "pyobjc-framework-IMServicePlugIn (==8.4.1)", "pyobjc-framework-InputMethodKit (==8.4.1)", "pyobjc-framework-ImageCaptureCore (==8.4.1)", "pyobjc-framework-Intents (==8.4.1)", "pyobjc-framework-IntentsUI (==8.4.1)", "pyobjc-framework-InstallerPlugins (==8.4.1)", "pyobjc-framework-InstantMessage (==8.4.1)", "pyobjc-framework-IOSurface (==8.4.1)", "pyobjc-framework-KernelManagement (==8.4.1)", "pyobjc-framework-LatentSemanticMapping (==8.4.1)", "pyobjc-framework-LaunchServices (==8.4.1)", "pyobjc-framework-LinkPresentation (==8.4.1)", "pyobjc-framework-LocalAuthentication (==8.4.1)", "pyobjc-framework-LocalAuthenticationEmbeddedUI (==8.4.1)", "pyobjc-framework-MailKit (==8.4.1)", "pyobjc-framework-MapKit (==8.4.1)", "pyobjc-framework-MediaAccessibility (==8.4.1)", "pyobjc-framework-MediaLibrary (==8.4.1)", "pyobjc-framework-MediaPlayer (==8.4.1)", "pyobjc-framework-MediaToolbox (==8.4.1)", "pyobjc-framework-Message (==8.4.1)", "pyobjc-framework-Metal (==8.4.1)", "pyobjc-framework-MetalKit (==8.4.1)", "pyobjc-framework-MetalPerformanceShaders (==8.4.1)", "pyobjc-framework-MetalPerformanceShadersGraph (==8.4.1)", "pyobjc-framework-MetricKit (==8.4.1)", "pyobjc-framework-MLCompute (==8.4.1)", "pyobjc-framework-ModelIO (==8.4.1)", "pyobjc-framework-MultipeerConnectivity (==8.4.1)", "pyobjc-framework-NaturalLanguage (==8.4.1)", "pyobjc-framework-NetFS (==8.4.1)", "pyobjc-framework-Network (==8.4.1)", "pyobjc-framework-NetworkExtension (==8.4.1)", "pyobjc-framework-NotificationCenter (==8.4.1)", "pyobjc-framework-OpenDirectory (==8.4.1)", "pyobjc-framework-OSAKit (==8.4.1)", "pyobjc-framework-OSLog (==8.4.1)", "pyobjc-framework-PassKit (==8.4.1)", "pyobjc-framework-PencilKit (==8.4.1)", "pyobjc-framework-Photos (==8.4.1)", "pyobjc-framework-PhotosUI (==8.4.1)", "pyobjc-framework-PreferencePanes (==8.4.1)", "pyobjc-framework-PubSub (==8.4.1)", "pyobjc-framework-PushKit (==8.4.1)", "pyobjc-framework-Quartz (==8.4.1)", "pyobjc-framework-QuickLookThumbnailing (==8.4.1)", "pyobjc-framework-ReplayKit (==8.4.1)", "pyobjc-framework-SafariServices (==8.4.1)", "pyobjc-framework-ScreenSaver (==8.4.1)", "pyobjc-framework-ScreenTime (==8.4.1)", "pyobjc-framework-ScriptingBridge (==8.4.1)", "pyobjc-framework-Security (==8.4.1)", "pyobjc-framework-SecurityFoundation (==8.4.1)", "pyobjc-framework-SecurityInterface (==8.4.1)", "pyobjc-framework-SearchKit (==8.4.1)", "pyobjc-framework-ServerNotification (==8.4.1)", "pyobjc-framework-ServiceManagement (==8.4.1)", "pyobjc-framework-ShazamKit (==8.4.1)", "pyobjc-framework-Social (==8.4.1)", "pyobjc-framework-Speech (==8.4.1)", "pyobjc-framework-SpriteKit (==8.4.1)", "pyobjc-framework-StoreKit (==8.4.1)", "pyobjc-framework-SyncServices (==8.4.1)", "pyobjc-framework-SystemConfiguration (==8.4.1)", "pyobjc-framework-WebKit (==8.4.1)", "pyobjc-framework-GameKit (==8.4.1)", "pyobjc-framework-GameplayKit (==8.4.1)", "pyobjc-framework-SceneKit (==8.4.1)", "pyobjc-framework-SoundAnalysis (==8.4.1)", "pyobjc-framework-ScreenCaptureKit (==8.4.1)", "pyobjc-framework-SystemExtensions (==8.4.1)", "pyobjc-framework-UniformTypeIdentifiers (==8.4.1)", "pyobjc-framework-UserNotifications (==8.4.1)", "pyobjc-framework-UserNotificationsUI (==8.4.1)", "pyobjc-framework-VideoSubscriberAccount (==8.4.1)", "pyobjc-framework-VideoToolbox (==8.4.1)", "pyobjc-framework-Virtualization (==8.4.1)", "pyobjc-framework-Vision (==8.4.1)", "pyobjc-framework-iTunesLibrary (==8.4.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-core"
 version = "8.4.1"
@@ -1238,6 +1693,11 @@ description = "Python<->ObjC Interoperability Module"
 category = "dev"
 optional = false
 python-versions = ">=3.6"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-accessibility"
@@ -1252,6 +1712,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-accounts"
 version = "8.4.1"
@@ -1263,6 +1728,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-addressbook"
@@ -1276,6 +1746,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-adservices"
 version = "8.4.1"
@@ -1287,6 +1762,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-adsupport"
@@ -1300,6 +1780,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-applescriptkit"
 version = "8.4.1"
@@ -1312,6 +1797,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-applescriptobjc"
 version = "8.4.1"
@@ -1323,6 +1813,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-applicationservices"
@@ -1337,6 +1832,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-apptrackingtransparency"
 version = "8.4.1"
@@ -1348,6 +1848,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-audiovideobridging"
@@ -1361,6 +1866,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-authenticationservices"
 version = "8.4.1"
@@ -1372,6 +1882,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-automaticassessmentconfiguration"
@@ -1385,6 +1900,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-automator"
 version = "8.4.1"
@@ -1396,6 +1916,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-avfoundation"
@@ -1412,6 +1937,11 @@ pyobjc-framework-CoreAudio = ">=8.4.1"
 pyobjc-framework-CoreMedia = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-avkit"
 version = "8.4.1"
@@ -1425,6 +1955,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-businesschat"
 version = "8.4.1"
@@ -1436,6 +1971,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-calendarstore"
@@ -1449,6 +1989,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-callkit"
 version = "8.4.1"
@@ -1460,6 +2005,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-cfnetwork"
@@ -1473,6 +2023,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-classkit"
 version = "8.4.1"
@@ -1484,6 +2039,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-cloudkit"
@@ -1500,6 +2060,11 @@ pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-CoreData = ">=8.4.1"
 pyobjc-framework-CoreLocation = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-cocoa"
 version = "8.4.1"
@@ -1510,6 +2075,11 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-collaboration"
@@ -1523,6 +2093,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-colorsync"
 version = "8.4.1"
@@ -1535,6 +2110,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-contacts"
 version = "8.4.1"
@@ -1546,6 +2126,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-contactsui"
@@ -1560,6 +2145,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Contacts = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-coreaudio"
 version = "8.4.1"
@@ -1571,6 +2161,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-coreaudiokit"
@@ -1585,6 +2180,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-CoreAudio = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-corebluetooth"
 version = "8.4.1"
@@ -1596,6 +2196,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-coredata"
@@ -1609,6 +2214,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-corehaptics"
 version = "8.4.1"
@@ -1620,6 +2230,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-corelocation"
@@ -1633,6 +2248,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-coremedia"
 version = "8.4.1"
@@ -1644,6 +2264,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-coremediaio"
@@ -1657,6 +2282,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-coremidi"
 version = "8.4.1"
@@ -1668,6 +2298,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-coreml"
@@ -1681,6 +2316,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-coremotion"
 version = "8.4.1"
@@ -1692,6 +2332,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-coreservices"
@@ -1705,6 +2350,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-FSEvents = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-corespotlight"
 version = "8.4.1"
@@ -1716,6 +2366,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-coretext"
@@ -1730,6 +2385,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-corewlan"
 version = "8.4.1"
@@ -1741,6 +2401,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-cryptotokenkit"
@@ -1754,6 +2419,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-datadetection"
 version = "8.4.1"
@@ -1765,6 +2435,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-devicecheck"
@@ -1778,6 +2453,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-dictionaryservices"
 version = "8.4.1"
@@ -1790,6 +2470,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-CoreServices = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-discrecording"
 version = "8.4.1"
@@ -1801,6 +2486,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-discrecordingui"
@@ -1815,6 +2505,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-DiscRecording = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-diskarbitration"
 version = "8.4.1"
@@ -1826,6 +2521,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-dvdplayback"
@@ -1839,6 +2539,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-eventkit"
 version = "8.4.1"
@@ -1850,6 +2555,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-exceptionhandling"
@@ -1863,6 +2573,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-executionpolicy"
 version = "8.4.1"
@@ -1874,6 +2589,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-externalaccessory"
@@ -1887,6 +2607,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-fileprovider"
 version = "8.4.1"
@@ -1898,6 +2623,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-fileproviderui"
@@ -1911,6 +2641,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-FileProvider = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-findersync"
 version = "8.4.1"
@@ -1922,6 +2657,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-fsevents"
@@ -1935,6 +2675,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-gamecenter"
 version = "8.4.1"
@@ -1947,6 +2692,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-gamecontroller"
 version = "8.4.1"
@@ -1958,6 +2708,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-gamekit"
@@ -1972,6 +2727,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-gameplaykit"
 version = "8.4.1"
@@ -1985,6 +2745,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-SpriteKit = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-imagecapturecore"
 version = "8.4.1"
@@ -1996,6 +2761,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-imserviceplugin"
@@ -2009,6 +2779,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-inputmethodkit"
 version = "8.4.1"
@@ -2021,6 +2796,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-installerplugins"
 version = "8.4.1"
@@ -2032,6 +2812,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-instantmessage"
@@ -2046,6 +2831,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-intents"
 version = "8.4.1"
@@ -2057,6 +2847,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-intentsui"
@@ -2070,6 +2865,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Intents = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-iosurface"
 version = "8.4.1"
@@ -2081,6 +2881,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-ituneslibrary"
@@ -2094,6 +2899,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-kernelmanagement"
 version = "8.4.1"
@@ -2105,6 +2915,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-latentsemanticmapping"
@@ -2118,6 +2933,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-launchservices"
 version = "8.4.1"
@@ -2130,6 +2950,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-CoreServices = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-libdispatch"
 version = "8.4.1"
@@ -2140,6 +2965,11 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-linkpresentation"
@@ -2154,6 +2984,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-localauthentication"
 version = "8.4.1"
@@ -2166,6 +3001,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Security = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-localauthenticationembeddedui"
@@ -2180,6 +3020,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-LocalAuthentication = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-mailkit"
 version = "8.4.1"
@@ -2191,6 +3036,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-mapkit"
@@ -2206,6 +3056,11 @@ pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-CoreLocation = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-mediaaccessibility"
 version = "8.4.1"
@@ -2217,6 +3072,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-medialibrary"
@@ -2231,6 +3091,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-mediaplayer"
 version = "8.4.1"
@@ -2242,6 +3107,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-AVFoundation = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-mediatoolbox"
@@ -2255,6 +3125,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-message"
 version = "8.4.1"
@@ -2267,6 +3142,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-metal"
 version = "8.4.1"
@@ -2278,6 +3158,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-metalkit"
@@ -2292,6 +3177,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Metal = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-metalperformanceshaders"
 version = "8.4.1"
@@ -2303,6 +3193,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Metal = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-metalperformanceshadersgraph"
@@ -2316,6 +3211,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-MetalPerformanceShaders = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-metrickit"
 version = "8.4.1"
@@ -2328,6 +3228,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-mlcompute"
 version = "8.4.1"
@@ -2339,6 +3244,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-modelio"
@@ -2353,6 +3263,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-multipeerconnectivity"
 version = "8.4.1"
@@ -2364,6 +3279,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-naturallanguage"
@@ -2377,6 +3297,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-netfs"
 version = "8.4.1"
@@ -2388,6 +3313,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-network"
@@ -2401,6 +3331,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-networkextension"
 version = "8.4.1"
@@ -2412,6 +3347,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-notificationcenter"
@@ -2425,6 +3365,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-opendirectory"
 version = "8.4.1"
@@ -2437,6 +3382,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-osakit"
 version = "8.4.1"
@@ -2448,6 +3398,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-oslog"
@@ -2463,6 +3418,11 @@ pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-CoreMedia = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-passkit"
 version = "8.4.1"
@@ -2474,6 +3434,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-pencilkit"
@@ -2487,6 +3452,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-photos"
 version = "8.4.1"
@@ -2498,6 +3468,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-photosui"
@@ -2511,6 +3486,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-preferencepanes"
 version = "8.4.1"
@@ -2522,6 +3502,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-pubsub"
@@ -2535,6 +3520,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-pushkit"
 version = "8.4.1"
@@ -2547,6 +3537,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-quartz"
 version = "8.4.1"
@@ -2558,6 +3553,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-quicklookthumbnailing"
@@ -2572,6 +3572,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-replaykit"
 version = "8.4.1"
@@ -2584,6 +3589,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-safariservices"
 version = "8.4.1"
@@ -2595,6 +3605,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-scenekit"
@@ -2609,6 +3624,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-screencapturekit"
 version = "8.4.1"
@@ -2620,6 +3640,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-CoreMedia = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-screensaver"
@@ -2633,6 +3658,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-screentime"
 version = "8.4.1"
@@ -2644,6 +3674,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-scriptingbridge"
@@ -2657,6 +3692,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-searchkit"
 version = "8.4.1"
@@ -2669,6 +3709,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-CoreServices = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-security"
 version = "8.4.1"
@@ -2680,6 +3725,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-securityfoundation"
@@ -2694,6 +3744,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Security = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-securityinterface"
 version = "8.4.1"
@@ -2707,6 +3762,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Security = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-servernotification"
 version = "8.4.1"
@@ -2718,6 +3778,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-servicemanagement"
@@ -2731,6 +3796,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-shazamkit"
 version = "8.4.1"
@@ -2742,6 +3812,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-social"
@@ -2755,6 +3830,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-soundanalysis"
 version = "8.4.1"
@@ -2767,6 +3847,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-speech"
 version = "8.4.1"
@@ -2778,6 +3863,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-spritekit"
@@ -2792,6 +3882,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-storekit"
 version = "8.4.1"
@@ -2803,6 +3898,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-syncservices"
@@ -2817,6 +3917,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-CoreData = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-systemconfiguration"
 version = "8.4.1"
@@ -2828,6 +3933,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-systemextensions"
@@ -2841,6 +3951,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-uniformtypeidentifiers"
 version = "8.4.1"
@@ -2853,6 +3968,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-usernotifications"
 version = "8.4.1"
@@ -2864,6 +3984,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-usernotificationsui"
@@ -2878,6 +4003,11 @@ pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-UserNotifications = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-videosubscriberaccount"
 version = "8.4.1"
@@ -2889,6 +4019,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-videotoolbox"
@@ -2904,6 +4039,11 @@ pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-CoreMedia = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-virtualization"
 version = "8.4.1"
@@ -2915,6 +4055,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyobjc-framework-vision"
@@ -2930,6 +4075,11 @@ pyobjc-framework-Cocoa = ">=8.4.1"
 pyobjc-framework-CoreML = ">=8.4.1"
 pyobjc-framework-Quartz = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyobjc-framework-webkit"
 version = "8.4.1"
@@ -2942,6 +4092,11 @@ python-versions = ">=3.6"
 pyobjc-core = ">=8.4.1"
 pyobjc-framework-Cocoa = ">=8.4.1"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyparsing"
 version = "3.0.7"
@@ -2953,6 +4108,11 @@ python-versions = ">=3.6"
 [package.extras]
 diagrams = ["jinja2", "railroad-diagrams"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyqt5"
 version = "5.15.6"
@@ -2961,9 +4121,10 @@ category = "dev"
 optional = false
 python-versions = ">=3.6"
 
-[package.dependencies]
-PyQt5-Qt5 = ">=5.15.2"
-PyQt5-sip = ">=12.8,<13"
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyqt5-qt5"
@@ -2973,6 +4134,11 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyqt5-sip"
 version = "12.9.1"
@@ -2980,6 +4146,11 @@ description = "The sip module support for PyQt5"
 category = "dev"
 optional = false
 python-versions = ">=3.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyqtwebengine"
@@ -2991,8 +4162,11 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 PyQt5 = ">=5.15.4"
-PyQt5-sip = ">=12.8,<13"
-PyQtWebEngine-Qt5 = ">=5.15.2"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyqtwebengine-qt5"
@@ -3002,6 +4176,11 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyreadline3"
 version = "3.4.1"
@@ -3009,6 +4188,11 @@ description = "A python implementation of GNU readline."
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyrsistent"
@@ -3018,16 +4202,26 @@ category = "dev"
 optional = false
 python-versions = ">=3.7"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "python-dateutil"
 version = "2.8.2"
 description = "Extensions to the standard Python datetime module"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
 
 [package.dependencies]
 six = ">=1.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "python-lsp-black"
@@ -3045,6 +4239,11 @@ toml = "*"
 [package.extras]
 dev = ["flake8", "isort (>=5.0)", "mypy", "pre-commit", "pytest", "types-pkg-resources", "types-setuptools", "types-toml"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "python-lsp-jsonrpc"
 version = "1.0.0"
@@ -3058,6 +4257,11 @@ ujson = ">=3.0.0"
 
 [package.extras]
 test = ["pylint", "pycodestyle", "pyflakes", "pytest", "pytest-cov", "coverage"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "python-lsp-server"
@@ -3095,11 +4299,16 @@ rope = ["rope (>0.10.5)"]
 test = ["pylint (>=2.5.0)", "pytest", "pytest-cov", "coverage", "numpy", "pandas", "matplotlib", "pyqt5", "flaky"]
 yapf = ["yapf"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "python-slugify"
 version = "6.1.1"
 description = "A Python slugify application that also handles Unicode"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 
@@ -3109,6 +4318,11 @@ text-unidecode = ">=1.3"
 [package.extras]
 unidecode = ["Unidecode (>=1.1.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pytz"
 version = "2022.1"
@@ -3116,6 +4330,11 @@ description = "World timezone definitions, modern and historical"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pywin32"
@@ -3125,6 +4344,11 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pywin32-ctypes"
 version = "0.2.0"
@@ -3132,6 +4356,11 @@ description = ""
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pywinpty"
@@ -3141,6 +4370,11 @@ category = "dev"
 optional = false
 python-versions = ">=3.7"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "pyxdg"
 version = "0.27"
@@ -3148,6 +4382,11 @@ description = "PyXDG contains implementations of freedesktop.org standards in py
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "pyzmq"
@@ -3160,6 +4399,11 @@ python-versions = ">=3.6"
 [package.dependencies]
 cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 py = {version = "*", markers = "implementation_name == \"pypy\""}
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "qdarkstyle"
@@ -3177,6 +4421,11 @@ develop = ["qtsass", "watchdog"]
 docs = ["sphinx", "sphinx-rtd-theme"]
 example = ["pyqt5", "pyside2"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "qstylizer"
 version = "0.2.1"
@@ -3193,6 +4442,11 @@ tinycss2 = ">=0.5,<2"
 doc = ["sphinx (>=1.2.2,<2)", "sphinx-rtd-theme (>=0.1.6,<1)", "sphinxcontrib-autoprogram (>=0.1.2,!=0.1.3,<1)"]
 test = ["pytest (>=6,<7)", "pytest-mock (>=3,<4)", "pytest-catchlog (>=1,<2)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "qtawesome"
 version = "1.1.1"
@@ -3203,6 +4457,11 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 qtpy = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "qtconsole"
@@ -3226,6 +4485,11 @@ traitlets = "*"
 doc = ["Sphinx (>=1.3)"]
 test = ["flaky", "pytest", "pytest-qt"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "qtpy"
 version = "2.0.1"
@@ -3240,11 +4504,16 @@ packaging = "*"
 [package.extras]
 test = ["pytest (>=6.0.0)", "pytest-cov (>=3.0.0)", "pytest-qt"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "requests"
 version = "2.27.1"
 description = "Python HTTP for Humans."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 
@@ -3258,6 +4527,11 @@ urllib3 = ">=1.21.1,<1.27"
 socks = ["PySocks (>=1.5.6,!=1.5.7)", "win-inet-pton"]
 use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "rope"
 version = "0.23.0"
@@ -3269,6 +4543,11 @@ python-versions = "*"
 [package.extras]
 dev = ["build", "pytest", "pytest-timeout"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "rtree"
 version = "0.9.7"
@@ -3276,6 +4555,11 @@ description = "R-Tree spatial index for Python GIS"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "secretstorage"
@@ -3289,13 +4573,23 @@ python-versions = ">=3.6"
 cryptography = ">=2.0"
 jeepney = ">=0.6"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "snowballstemmer"
@@ -3305,6 +4599,11 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "sortedcontainers"
 version = "2.4.0"
@@ -3313,6 +4612,11 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "soupsieve"
 version = "2.3.1"
@@ -3320,6 +4624,11 @@ description = "A modern CSS selector implementation for Beautiful Soup."
 category = "dev"
 optional = false
 python-versions = ">=3.6"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "sphinx"
@@ -3353,6 +4662,11 @@ docs = ["sphinxcontrib-websupport"]
 lint = ["flake8 (>=3.5.0)", "isort", "mypy (>=0.931)", "docutils-stubs", "types-typed-ast", "types-requests"]
 test = ["pytest", "pytest-cov", "html5lib", "cython", "typed-ast"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "sphinxcontrib-applehelp"
 version = "1.0.2"
@@ -3364,6 +4678,11 @@ python-versions = ">=3.5"
 [package.extras]
 lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "sphinxcontrib-devhelp"
@@ -3377,6 +4696,11 @@ python-versions = ">=3.5"
 lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "sphinxcontrib-htmlhelp"
 version = "2.0.0"
@@ -3389,6 +4713,11 @@ python-versions = ">=3.6"
 lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest", "html5lib"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "sphinxcontrib-jsmath"
 version = "1.0.1"
@@ -3399,6 +4728,11 @@ python-versions = ">=3.5"
 
 [package.extras]
 test = ["pytest", "flake8", "mypy"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "sphinxcontrib-qthelp"
@@ -3412,6 +4746,11 @@ python-versions = ">=3.5"
 lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "sphinxcontrib-serializinghtml"
 version = "1.1.5"
@@ -3423,6 +4762,11 @@ python-versions = ">=3.5"
 [package.extras]
 lint = ["flake8", "mypy", "docutils-stubs"]
 test = ["pytest"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "spyder"
@@ -3476,6 +4820,11 @@ watchdog = ">=0.10.3"
 [package.extras]
 test = ["coverage", "cython", "flaky", "matplotlib", "pandas", "pillow", "pytest (<7.0)", "pytest-cov", "pytest-lazy-fixture", "pytest-mock", "pytest-order", "pytest-qt", "pyyaml", "scipy", "sympy", "pywin32"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "spyder-kernels"
 version = "2.3.0"
@@ -3495,6 +4844,11 @@ wurlitzer = {version = ">=1.0.3", markers = "platform_system != \"Windows\""}
 [package.extras]
 test = ["codecov", "cython", "dask", "flaky", "matplotlib", "mock", "numpy", "pandas", "pytest", "pytest-cov", "scipy", "xarray", "pillow"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "spyder-terminal"
 version = "1.2.2"
@@ -3513,6 +4867,11 @@ tornado = "*"
 [package.extras]
 test = ["pytest (<6.0)", "pytest-cov", "flaky", "pytest-qt (==3.3.0)", "pytest-timeout"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "sympy"
 version = "1.10.1"
@@ -3523,6 +4882,11 @@ python-versions = ">=3.7"
 
 [package.dependencies]
 mpmath = ">=0.19"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "terminado"
@@ -3540,6 +4904,11 @@ tornado = ">=4"
 [package.extras]
 test = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "testpath"
 version = "0.6.0"
@@ -3551,13 +4920,23 @@ python-versions = ">= 3.5"
 [package.extras]
 test = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "text-unidecode"
 version = "1.3"
 description = "The most basic Text::Unidecode port"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "textdistance"
@@ -3581,6 +4960,11 @@ extra = ["abydos", "jellyfish", "numpy", "python-levenshtein", "pyxdameraulevens
 extras = ["abydos", "jellyfish", "numpy", "python-levenshtein", "pyxdameraulevenshtein"]
 test = ["hypothesis", "isort", "numpy", "pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "three-merge"
 version = "0.1.1"
@@ -3594,6 +4978,11 @@ diff-match-patch = "*"
 
 [package.extras]
 test = ["pytest", "pytest-cov", "flaky", "pytest-timeout"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "tinycss2"
@@ -3610,6 +4999,11 @@ webencodings = ">=0.4"
 doc = ["sphinx", "sphinx-rtd-theme"]
 test = ["pytest", "pytest-cov", "pytest-flake8", "pytest-isort", "coverage"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "toml"
 version = "0.10.2"
@@ -3617,6 +5011,11 @@ description = "Python Library for Tom's Obvious, Minimal Language"
 category = "dev"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "tomli"
@@ -3626,6 +5025,11 @@ category = "dev"
 optional = false
 python-versions = ">=3.7"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "tornado"
 version = "6.1"
@@ -3633,6 +5037,11 @@ description = "Tornado is a Python web framework and asynchronous networking lib
 category = "dev"
 optional = false
 python-versions = ">= 3.5"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "traitlets"
@@ -3645,6 +5054,11 @@ python-versions = ">=3.7"
 [package.extras]
 test = ["pytest"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "typing-extensions"
 version = "4.1.1"
@@ -3652,6 +5066,11 @@ description = "Backported and Experimental Type Hints for Python 3.6+"
 category = "dev"
 optional = false
 python-versions = ">=3.6"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "ujson"
@@ -3661,11 +5080,16 @@ category = "dev"
 optional = false
 python-versions = ">=3.7"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "urllib3"
 version = "1.26.9"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
 
@@ -3673,6 +5097,11 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
 brotli = ["brotlicffi (>=0.8.0)", "brotli (>=1.0.9)", "brotlipy (>=0.6.0)"]
 secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "ipaddress"]
 socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "watchdog"
@@ -3685,6 +5114,11 @@ python-versions = ">=3.6"
 [package.extras]
 watchmedo = ["PyYAML (>=3.10)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "wcwidth"
 version = "0.2.5"
@@ -3692,6 +5126,11 @@ description = "Measures the displayed width of unicode strings in a terminal"
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "webencodings"
@@ -3701,6 +5140,11 @@ category = "dev"
 optional = false
 python-versions = "*"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "wrapt"
 version = "1.14.0"
@@ -3708,6 +5152,11 @@ description = "Module for decorators, wrappers and monkey patching."
 category = "dev"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "wurlitzer"
@@ -3717,6 +5166,11 @@ category = "dev"
 optional = false
 python-versions = ">=3.5"
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [[package]]
 name = "yapf"
 version = "0.32.0"
@@ -3724,6 +5178,11 @@ description = "A formatter for Python code."
 category = "dev"
 optional = false
 python-versions = "*"
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
 
 [[package]]
 name = "zipp"
@@ -3737,10 +5196,15 @@ python-versions = ">=3.7"
 docs = ["sphinx", "jaraco.packaging (>=9)", "rst.linker (>=1.9)"]
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "jaraco.itertools", "func-timeout", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)"]
 
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "fa8435b367616bffe523b0aa59c5b4b5fc4bc44226fe1405aac3e38d55755b68"
+content-hash = "a806380d598ae64b1bbbd9bee59fc53089e1fcacf3a8f670d7ed6a25311f660b"
 
 [metadata.files]
 alabaster = [

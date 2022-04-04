@@ -20,6 +20,8 @@ url = "https://mirror.baidu.com/pypi/simple/"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+click = "^8.1.2"
+cookiecutter = "^1.7.3"
 
 [tool.poetry.dev-dependencies]
 # 探索开发
