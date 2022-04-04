@@ -17,7 +17,7 @@ DSTEMPLATE = 'git@github.com:jonzhaopeng/dsproj-template.git'
 @click.group()
 @click.version_option()
 def cli():
-    """ 
+    """
     将Poetry run 的长命令+参数缩写为短命令 ，便于记忆和使用。
     可以在独立的Spder内使用，也可以启动集成环境里的Spyder IDE。
 
@@ -36,7 +36,7 @@ def new():
 @cli.command()
 def install():
     """创建当前数据科学项目需要的虚拟环境
-    """ 
+    """
     os.system("poetry install")
 
 
@@ -61,6 +61,14 @@ def spyder():
 
     """
     os.system("poetry run spyder --window-title=数据科学工作台 --opengl=gles -p . > logs/spyder.log 2>&1 &")
+
+@cli.command()
+def remote():
+    """ 通常在服务器上，启动当前数据科学项目环境中的Spyder-kernles
+
+    """
+    os.system("poetry run python3 -m spyder_kernels.console --matplotlib="inline"  -f=connect.json > logs/spyderkernels.log 2>&1 &")
+
 
 @cli.command()
 def monitor():
