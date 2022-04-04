@@ -69,6 +69,14 @@ def remote():
     """
     os.system("""poetry run python3 -m spyder_kernels.console --matplotlib="inline"  -f=connect.json > logs/spyderkernels.log 2>&1 &""")
 
+@cli.command()
+def pypi():
+    """ 通常在服务器上，启动当前数据科学项目环境中的remoteypiserver
+
+    """
+    os.system("poetry run pypi-server -p 8888 pypipkgs &")
+
+
 
 @cli.command()
 def monitor():

@@ -4114,6 +4114,23 @@ url = "https://mirror.baidu.com/pypi/simple"
 reference = "baidu"
 
 [[package]]
+name = "pypiserver"
+version = "1.4.2"
+description = "A minimal PyPI server for use with pip/easy_install."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.extras]
+cache = ["watchdog"]
+passlib = ["passlib (>=1.6)"]
+
+[package.source]
+type = "legacy"
+url = "https://mirror.baidu.com/pypi/simple"
+reference = "baidu"
+
+[[package]]
 name = "pyqt5"
 version = "5.15.6"
 description = "Python bindings for the Qt cross platform application toolkit"
@@ -5204,7 +5221,7 @@ reference = "baidu"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a806380d598ae64b1bbbd9bee59fc53089e1fcacf3a8f670d7ed6a25311f660b"
+content-hash = "2c68e59567e7890fbc9b6fb01345ec4fd3dffc3789fa7dab269dc78696d1d28e"
 
 [metadata.files]
 alabaster = [
@@ -6601,6 +6618,10 @@ pyobjc-framework-webkit = [
 pyparsing = [
     {file = "pyparsing-3.0.7-py3-none-any.whl", hash = "sha256:a6c06a88f252e6c322f65faf8f418b16213b51bdfaece0524c1c1bc30c63c484"},
     {file = "pyparsing-3.0.7.tar.gz", hash = "sha256:18ee9022775d270c55187733956460083db60b37d0d0fb357445f3094eed3eea"},
+]
+pypiserver = [
+    {file = "pypiserver-1.4.2-py2.py3-none-any.whl", hash = "sha256:3f73f13250c5ded5cd2653da5221c4635d6a0b428d0cb6c935741b906786349e"},
+    {file = "pypiserver-1.4.2.zip", hash = "sha256:0bf2bc338519c2f767f4d577d9a16c79ea3083a1372049d70c05d053101a5e10"},
 ]
 pyqt5 = [
     {file = "PyQt5-5.15.6-cp36-abi3-macosx_10_13_x86_64.whl", hash = "sha256:33ced1c876f6a26e7899615a5a4efef2167c263488837c7beed023a64cebd051"},

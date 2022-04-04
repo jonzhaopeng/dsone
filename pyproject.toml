@@ -22,6 +22,7 @@ url = "https://mirror.baidu.com/pypi/simple/"
 python = "^3.8"
 click = "^8.1.2"
 cookiecutter = "^1.7.3"
+pypiserver = "^1.4.2"
 
 [tool.poetry.dev-dependencies]
 # 探索开发
