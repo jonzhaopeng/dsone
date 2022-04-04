@@ -74,7 +74,7 @@ def pypi():
     """ 通常在服务器上，启动当前数据科学项目环境中的remoteypiserver
 
     """
-    os.system("poetry run pypi-server -p 8888 pypipkgs &")
+    os.system("poetry run pypi-server -p 8888 ~/pypipkgs &")
 
 
 
