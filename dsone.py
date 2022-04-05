@@ -113,5 +113,5 @@ def clean():
 def git():
     """启动cola 完成git 操作和commit模版
     """
-    os.system("nohup poetry run git cola &")
+    os.system("nohup poetry run git cola  > logs/git-cola.log 2>&1 &")
 
