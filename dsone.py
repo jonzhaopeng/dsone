@@ -60,21 +60,21 @@ def spyder():
     """启动当前数据科学项目环境中的Spyder
 
     """
-    os.system("poetry run spyder --window-title=数据科学工作台 --opengl=gles -p . > logs/spyder.log 2>&1 &")
+    os.system("nohup poetry run spyder --window-title=数据科学工作台 --opengl=gles -p . > logs/spyder.log 2>&1 &")
 
 @cli.command()
 def remote():
     """ 通常在服务器上，启动当前数据科学项目环境中的Spyder-kernles
 
     """
-    os.system("""poetry run python3 -m spyder_kernels.console --matplotlib="inline"  -f=connect.json > logs/spyderkernels.log 2>&1 &""")
+    os.system("""nohup poetry run python3 -m spyder_kernels.console --matplotlib="inline"  -f=connect.json > logs/spyderkernels.log 2>&1 &""")
 
 @cli.command()
 def pypi():
     """ 通常在服务器上，启动当前数据科学项目环境中的remoteypiserver
 
     """
-    os.system("poetry run pypi-server -p 8585 ~/pypipkgs &")
+    os.system("nohup poetry run pypi-server -p 8585 ~/pypipkgs &")
 
 
 
@@ -82,14 +82,14 @@ def pypi():
 def monitor():
     """启动当前数据科学项目环境中的指标监控仪,会自动弹出浏览器请求默认端口8501。
     """
-    os.system("poetry run streamlit run  analysis/monitor.py --server.port 8501 > logs/report.log 2>&1 &")
+    os.system("nohup poetry run streamlit run  analysis/monitor.py --server.port 8501 > logs/report.log 2>&1 &")
 
 
 @cli.command()
 def report():
     """当前数据科学项目环境中的分析仪,会自动弹出浏览器请求默认端口8502。
     """
-    os.system("poetry run streamlit run  analysis/report.py --server.port 8502 > logs/monitor.log 2>&1 &")
+    os.system("nohup poetry run streamlit run  analysis/report.py --server.port 8502 > logs/monitor.log 2>&1 &")
 
 
 @cli.command()
@@ -113,5 +113,5 @@ def clean():
 def git():
     """启动cola 完成git 操作和commit模版
     """
-    os.system("poetry run git cola &")
+    os.system("nohup poetry run git cola &")
 
