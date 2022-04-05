@@ -109,7 +109,7 @@ def clean():
     """
     os.system(cmd)
 
-
+@cli.command()
 def git():
     """启动cola 完成git 操作和commit模版
     """
