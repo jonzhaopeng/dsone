@@ -101,17 +101,25 @@ def shell():
     """
     os.system("poetry shell")
 
+@cli.command()
+def dsp():
+    """获取当前数据科学项目环境中的Python解释器，用于本地Spyder连接
+
+    """
+    with os.popen("poetry env info -p ", "r") as p:
+        dsp = p.read().replace('\n','') + "/bin/python3"
+        print(dsp)
 
 @cli.command()
 def remote():
-    """ 通常在服务器上执行，启动当前数据科学项目环境中的Spyder-kernles，用于本地Spyder远程连接
+    """ 通常在服务器上执行，启动当前数据科学项目环境中的Spyder-kernles，用于本地Spyder远程连接
 
     """
     os.system("""nohup poetry run python3 -m spyder_kernels.console --matplotlib="inline"  -f=connect.json > logs/spyderkernels.log 2>&1 &""")
 
 @cli.command()
 def pypi():
-    """ 通常在服务器上执行，启动当前数据科学项目环境中的piserver，用于托管私有pip包
+    """ 通常在服务器上执行，启动当前数据科学项目环境中的piserver，用于托管私有pip包
     """
     os.system("nohup poetry run pypi-server -p 8585 ~/pypipkgs &")
 
